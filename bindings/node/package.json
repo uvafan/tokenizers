@@ -36,7 +36,7 @@
     "typescript": "^3.9.7"
   },
   "engines": {
-    "node": ">=10 < 11 || >=12 <14"
+    "node": ">=10 < 11 || >=12"
   },
   "scripts": {
     "dev-ts": "rm -rf dist && tsc -p tsconfig.lib.json && rsync -a $(pwd)/lib/bindings/ dist/bindings/",
